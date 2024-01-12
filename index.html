@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>osp sdk demo</title>
-        <script src="https://cdn-sg-sandbox-osp.advai.net/resource/aai-osp-websdk.iife.js"></script>
+        <script src="https://cdn-sg-sandbox-osp.advai.net/resource/osp-web-sdk/0.0.4/aai-osp-websdk.js"></script>
         <style>
             #osp-wrap {
                 width: 100vw;
@@ -18,7 +18,7 @@
         <script>
             const container = document.querySelector('#osp-wrap');
             const osp = AAI_OSP.init(container, {
-                token: 'd089c85a-209e-459a-af1a-51b61014a751', // Obtain the token according to the integration doc
+                token: 'c921eb31-4814-4830-81de-4d9692b9bd68', // Obtain the token according to the integration doc
                 environment: 'sandbox',
                 language: 'en',
                 onReady() {
